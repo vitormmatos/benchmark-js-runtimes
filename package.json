@@ -1,0 +1,22 @@
+{
+  "name": "js-runtime-benchmarks",
+  "version": "1.0.0",
+  "description": "Benchmarks for node, deno and bun",
+  "scripts": {
+    "http-node-server": "node ./http-node-request.js",
+    "http-deno-server": "deno run --allow-net ./http-deno-request.js",
+    "http-bun-server": "bun ./http-bun-request.js",
+    "http-benchmark": "node ./http-request.js"
+  },
+  "keywords": [],
+  "author": "Vítor Matos",
+  "link": "https://github.com/vitormmatos/js-runtime-benchmarks",
+  "license": "MIT",
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "tls": "^0.0.1"
+  }
+}

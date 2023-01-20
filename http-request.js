@@ -3,13 +3,12 @@
 const autocannon = require('autocannon')
 
 const link = process.argv.slice(2)
-const durationInSeconds = process.argv.slice(3)
 
 async function benchmark () {
   const instance = autocannon(
     {
       url: link,
-      duration: Number(durationInSeconds)
+      duration: 10
     },
     console.log
   )

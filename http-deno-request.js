@@ -1,7 +1,10 @@
-import { serve } from 'https://deno.land/std/http/server.ts'
+import express from 'npm:express'
 
-const s = serve({ port: 4000 })
+const app = express()
+const port = 4000
 
-for await (const req of s) {
-  req.respond({ body: 'Hello Deno!' })
-}
+app.get('/', (req, res) => {
+  res.send('Hello Deno!')
+})
+
+app.listen(port)

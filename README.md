@@ -59,7 +59,7 @@ The machine used for this benchmarking can be checked [here](macbook-specs)
 
 ## Conclusion
 
-**Bun** had less latency, was able to handle more requests per second and tranfer more bytes per second.
+**Bun** had less latency, was able to handle more requests per second and transfer more bytes per second.
 
 [node]: https://nodejs.org
 [deno]: https://deno.land

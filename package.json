@@ -6,7 +6,9 @@
     "http-node-server": "node ./http-node-request.js",
     "http-deno-server": "deno run --allow-net ./http-deno-request.js",
     "http-bun-server": "bun ./http-bun-request.js",
-    "http-benchmark": "node ./http-request.js"
+    "node-benchmark": "node ./http-request.js 0.0.0.0:3000",
+    "deno-benchmark": "node ./http-request.js 0.0.0.0:4000",
+    "bun-benchmark": "node ./http-request.js 0.0.0.0:5000"
   },
   "keywords": [],
   "author": "Vítor Matos",

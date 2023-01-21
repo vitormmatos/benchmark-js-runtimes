@@ -35,7 +35,7 @@ The machine used for this benchmarking can be checked [here](macbook-specs)
 | Req/Sec   | 2649   | 2649   | 5275    | 5451   | 4949.5  | 836.34 | 2649   |
 | Bytes/Sec | 631 kB | 631 kB | 1.26 MB | 1.3 MB | 1.18 MB | 199 kB | 630 kB |
 
-**Deno** (v1.29.4):
+**Deno**:
 
 | Stat    | 2.5% | 50%  | 97.5% | 99%  | Avg     | Stdev   | Max     |
 |---------|------|------|-------|------|---------|---------|---------|
@@ -46,7 +46,7 @@ The machine used for this benchmarking can be checked [here](macbook-specs)
 | Req/Sec   | 2781   | 2781   | 5035   | 5987    | 4838.11 | 957.74 | 2781   |
 | Bytes/Sec | 531 kB | 531 kB | 962 kB | 1.14 MB | 924 kB  | 183 kB | 531 kB |
 
-**Bun** (v0.5.0):
+**Bun**:
 
 | Stat    | 2.5% | 50%  | 97.5% | 99%  | Avg     | Stdev   | Max    |
 |---------|------|------|-------|------|---------|---------|--------|

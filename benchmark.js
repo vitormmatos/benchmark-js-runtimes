@@ -4,7 +4,7 @@ const autocannon = require('autocannon')
 
 const link = process.argv.slice(2)
 
-async function benchmark () {
+async function benchmark() {
   const instance = autocannon(
     {
       url: link,

@@ -1,6 +1,6 @@
 export default {
   port: 5000,
-  fetch (request) {
+  fetch() {
     return new Response('Hello Bun!')
   }
 }

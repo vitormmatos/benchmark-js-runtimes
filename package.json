@@ -10,7 +10,12 @@
     "deno-benchmark": "node ./benchmark.js 0.0.0.0:4000",
     "node-benchmark": "node ./benchmark.js 0.0.0.0:3000"
   },
-  "keywords": ["js", "bun", "deno", "node"],
+  "keywords": [
+    "js",
+    "bun",
+    "deno",
+    "node"
+  ],
   "author": "Vítor Matos",
   "link": "https://github.com/vitormmatos/js-runtime-benchmarks",
   "license": "MIT",

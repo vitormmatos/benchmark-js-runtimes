@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Benchmarks for node, deno and bun",
   "scripts": {
-    "http-bun-server": "bun ./http-bun-request.js",
-    "http-deno-server": "deno run --allow-net ./http-deno-request.js",
-    "http-node-server": "node ./http-node-request.js",
+    "http-bun-server": "bun ./http-bun-server.js",
+    "http-deno-server": "deno run --allow-net ./http-deno-server.js",
+    "http-node-server": "node ./http-node-server.js",
     "bun-benchmark": "node ./benchmark.js 0.0.0.0:5000",
     "deno-benchmark": "node ./benchmark.js 0.0.0.0:4000",
     "node-benchmark": "node ./benchmark.js 0.0.0.0:3000"

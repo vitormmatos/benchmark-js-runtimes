@@ -1,6 +1,6 @@
 const port = 4000
 
-const handler = request => {
+const handler = _ => {
   const body = 'Hello Deno!'
 
   return new Response(body, { status: 200 })

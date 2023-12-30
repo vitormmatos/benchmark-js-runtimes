@@ -1,0 +1,28 @@
+services:
+  node:
+    image: node:slim
+    container_name: jsrb-node-server
+    command: sh -c "npm ci && node ./src/http-node-server.js"
+    ports:
+      - 3000:3000
+    working_dir: /node-server
+    volumes:
+      - ./:/node-server
+  deno:
+    image: denoland/deno
+    container_name: jsrb-deno-server
+    command: sh -c "deno run --allow-net ./src/http-deno-server.js"
+    ports:
+      - 4000:4000
+    working_dir: /deno-server
+    volumes:
+      - ./:/deno-server
+  bun:
+    image: oven/bun
+    container_name: jsrb-bun-server
+    command: sh -c "bun ./src/http-bun-server.js"
+    ports:
+      - 5000:5000
+    working_dir: /bun-server
+    volumes:
+      - ./:/bun-server

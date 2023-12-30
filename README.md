@@ -51,12 +51,12 @@ Memory: 14829MiB
 
 | Stat    | 2.5% | 50%  | 97.5% | 99%  | Avg     | Stdev   | Max    |
 | ------- | ---- | ---- | ----- | ---- | ------- | ------- | ------ |
-| Latency | 0 ms | 0 ms |  2 ms | 3 ms | 0.26 ms |  0.69 ms| 27 ms |
+| Latency | 0 ms | 0 ms | 0 ms  | 0 ms | 0.01 ms | 0.08 ms | 22 ms  |
 
 | Stat      | 1%     | 2.5%   | 50%    | 97.5%   | Avg     | Stdev  | Min    |
 | --------- | ------ | ------ | ------ | ------- | ------- | ------ | ------ |
-| Req/Sec   | 3995   | 3995   | 11063  | 11535   | 10203.1 | 2235.52 | 3994 |
-| Bytes/Sec | 855 kB | 855 kB | 2.37 MB | 2.47 MB | 2.18 MB | 479 kB  | 855 kB |
+| Req/Sec   | 39,871 | 39,871 | 51,551 | 54,367  | 50,445.1 | 3,847.6 | 39,845 |  
+| Bytes/Sec | 5.98 MB | 5.98 MB | 7.73 MB | 8.16 MB | 7.57 MB | 577 kB | 5.98 MB |
 
 **Bun**:
 
@@ -71,7 +71,9 @@ Memory: 14829MiB
 
 ## Conclusion
 
-**Bun** had less latency, was able to handle more requests per second and transfer more bytes per second.
+**Bun** was overall superior,  
+Deno was a close second  
+Node was the worst in performance by a wide margin
 
 [node]: https://nodejs.org
 [deno]: https://deno.land

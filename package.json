@@ -1,5 +1,5 @@
 {
-  "name": "js-runtime-benchmarks",
+  "name": "benchmark-js-runtimes",
   "version": "1.0.0",
   "description": "Benchmarks for node, deno and bun",
   "scripts": {

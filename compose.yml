@@ -2,7 +2,7 @@ services:
   node:
     image: node:slim
     container_name: jsrb-node-server
-    command: sh -c "npm ci && node ./src/http-node-server.js"
+    command: sh -c "npm ci & node ./src/http-node-server.js"
     ports:
       - 3000:3000
     working_dir: /node-server
